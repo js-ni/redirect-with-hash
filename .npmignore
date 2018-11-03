@@ -1,0 +1,7 @@
+src/
+test/
+.git
+.gitignore
+.babelrc
+.DS_Store
+.eslintrc.json

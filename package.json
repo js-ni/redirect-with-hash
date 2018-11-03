@@ -1,0 +1,27 @@
+{
+  "name": "redirect-with-hash",
+  "version": "0.0.1",
+  "description": "Redirect with random hash",
+  "main": "index.js",
+  "repository": "https://github.com/js-ni/redirect-with-hash.git",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src -d dist",
+    "clean": "rm -rf dist",
+    "dist": "yarn run clean && yarn run build",
+    "test": "yarn run dist && ./node_modules/.bin/mocha",
+    "eslint": "node_modules/eslint/bin/eslint.js . --ext .js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  }
+}
