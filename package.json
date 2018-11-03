@@ -1,5 +1,5 @@
 {
-  "name": "redirect-with-hash",
+  "name": "@js-ni/redirect-with-hash",
   "version": "0.0.1",
   "description": "Redirect with random hash",
   "main": "index.js",
